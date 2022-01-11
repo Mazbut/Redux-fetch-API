@@ -16,16 +16,15 @@ import { makeStyles } from '@mui/styles';
 const useStyles = makeStyles((theme) => ({
   container: {
     maxWidth: '92%',
-    padding: '1% 4%',
+    padding: '8% 4%',
     margin: '0 auto',
   },
   title: {
     textAlign: 'center',
     color: 'black',
-    padding: '1rem',
+    padding: '0 0 1rem 0',
   },
   text: {
-    // backgroundColor: 'rgb(179, 208, 214)',
     backgroundColor: 'rgb(235, 237, 245)',
   },
 }));
